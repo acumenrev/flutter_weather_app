@@ -1,0 +1,34 @@
+import '../generic_widgets/radial_list.dart';
+import 'package:flutter/material.dart';
+
+final RadialListViewModel forecastRadialList = new RadialListViewModel(
+  items: [
+    new RadialListItemViewModel(
+      icon: new AssetImage('resources/images/ic_rain.png'),
+      title: '11:30',
+      subtitle: 'Light Rain',
+      isSelected: true,
+    ),
+    new RadialListItemViewModel(
+      icon: new AssetImage('resources/images/ic_rain.png'),
+      title: '12:30P',
+      subtitle: 'Light Rain',
+    ),
+    new RadialListItemViewModel(
+      icon: new AssetImage('resources/images/ic_cloudy.png'),
+      title: '1:30P',
+      subtitle: 'Cloudy',
+    ),
+    new RadialListItemViewModel(
+      icon: new AssetImage('resources/images/ic_sunny.png'),
+      title: '2:30P',
+      subtitle: 'Sunny',
+    ),
+    new RadialListItemViewModel(
+      icon: new AssetImage('resources/images/ic_sunny.png'),
+      title: '3:30P',
+      subtitle: 'Sunny',
+    ),
+  ],
+);
+
